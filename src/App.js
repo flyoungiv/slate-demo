@@ -171,14 +171,8 @@ const initialValue = [
   {
     type: 'paragraph',
     children: [
-      { text: `
-      ___   ________  _____________    ________
-      /   | / ____/ / / /  _/ ____/ |  / / ____/
-     / /| |/ /   / /_/ // // __/  | | / / __/   
-    / ___ / /___/ __  // // /___  | |/ / /___   
-   /_/  |_\\____/_/ /_/___/_____/  |___/_____/   
-   console.log(window.text) //to see output
-
+      { text: `console.log(window.text) //to see output  
+      
 `, code: true },
       { text: 'This is editable ' },
       { text: 'rich', bold: true },
